@@ -1,4 +1,4 @@
-# acuiq-com
+# AcuiQ
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-acuiq-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://acuiq.com/
+AcuiQ provides a searchable index of acupuncture points linked to published scientific studies and clinical texts. Users can enter symptoms to retrieve point selections with source citations, without needing to create an account or share personal data. The platform also offers related guides, needle products, and reference charts for clinicians and students, emphasizing transparency and evidence-based information.
+
+**Areas:** Health · Acupuncture · Data · Research · Wellness
+
+## AcuiQ on APIs.io
+
+Everything profiled for AcuiQ is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/acuiq-com/](https://apis.io/providers/acuiq-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [AcuiQ Checkout API](https://apis.io/apis/acuiq-com/acuiq-com-checkout-api/) — The Checkout API from AcuiQ — 1 operation(s) for checkout.
+- [AcuiQ Corpus API](https://apis.io/apis/acuiq-com/acuiq-com-corpus-api/) — The Corpus API from AcuiQ — 1 operation(s) for corpus.
+- [AcuiQ Llms.txt API](https://apis.io/apis/acuiq-com/acuiq-com-llms-txt-api/) — The Llms.txt API from AcuiQ — 1 operation(s) for llms.txt.
+- [AcuiQ MCP API](https://apis.io/apis/acuiq-com/acuiq-com-mcp-api/) — The Mcp API from AcuiQ — 1 operation(s) for mcp.
+- [AcuiQ Meridians API](https://apis.io/apis/acuiq-com/acuiq-com-meridians-api/) — The Meridians API from AcuiQ — 1 operation(s) for meridians.
+- [AcuiQ Protocols API](https://apis.io/apis/acuiq-com/acuiq-com-protocols-api/) — The Protocols API from AcuiQ — 1 operation(s) for protocols.
+- [AcuiQ Reviews API](https://apis.io/apis/acuiq-com/acuiq-com-reviews-api/) — The Reviews API from AcuiQ — 1 operation(s) for reviews.
+- [AcuiQ Symptoms API](https://apis.io/apis/acuiq-com/acuiq-com-symptoms-api/) — The Symptoms API from AcuiQ — 1 operation(s) for symptoms.
+- [AcuiQ Wiki API](https://apis.io/apis/acuiq-com/acuiq-com-wiki-api/) — The Wiki API from AcuiQ — 1 operation(s) for wiki.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Acuiq Com Agentic Access](https://apis.io/agentic-access/acuiq-com/acuiq-com-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [CorpusLine](https://apis.io/schemas/acuiq-com/acuiq-com-corpus-line/)
+- [MeridianListResponse](https://apis.io/schemas/acuiq-com/acuiq-com-meridian-list-response/)
+- [SearchResultResponse](https://apis.io/schemas/acuiq-com/acuiq-com-search-result-response/)
+- [SymptomListResponse](https://apis.io/schemas/acuiq-com/acuiq-com-symptom-list-response/)
+- [WikiSearchResponse](https://apis.io/schemas/acuiq-com/acuiq-com-wiki-search-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Acuiq Com Context](https://apis.io/jsonld/acuiq-com/acuiq-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AcuiQ API Rules](https://apis.io/rules/acuiq-com/acuiq-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Acuiq Com Authentication](https://apis.io/security/acuiq-com/acuiq-com-authentication/)
+- [Acuiq Com Domain Security](https://apis.io/security/acuiq-com/acuiq-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://acuiq.com/)
+- [Documentation](https://acuiq.com/wiki)
+- [Terms of service](https://acuiq.com/terms)
+- [Privacy policy](https://acuiq.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 41.0** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 60.2 |
+| Contract governance | 70.9 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 21.1 |
+
+**Agent readiness 38.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 19.5** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/acuiq-com/](https://apis.io/providers/acuiq-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AcuiQ: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/acuiq-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
