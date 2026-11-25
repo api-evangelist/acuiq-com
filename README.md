@@ -88,11 +88,17 @@ Everything profiled for AcuiQ is published on APIs.io rather than in this reposi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [acuiq-com-mcp.yml](https://apis.io/servers/acuiq-com/acuiq-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Acuiq Com Agentic Access](https://apis.io/agentic-access/acuiq-com/acuiq-com-agentic-access/)
+- [AcuiQ Agentic Access](https://apis.io/agentic-access/acuiq-com/acuiq-com-agentic-access/)
 
 #### JSON Schema (5)
 
@@ -120,8 +126,8 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Acuiq Com Authentication](https://apis.io/security/acuiq-com/acuiq-com-authentication/)
-- [Acuiq Com Domain Security](https://apis.io/security/acuiq-com/acuiq-com-domain-security/)
+- [AcuiQ Authentication](https://apis.io/security/acuiq-com/acuiq-com-authentication/)
+- [AcuiQ Domain Security](https://apis.io/security/acuiq-com/acuiq-com-domain-security/)
 
 ## Where to find this API
 
@@ -134,23 +140,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 41.0** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 36.0** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 60.2 |
-| Contract governance | 70.9 |
+| Discoverability | 71.7 |
+| Contract quality | 60.8 |
+| Contract governance | 19.7 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 27.9 |
-| Access clarity | 21.1 |
+| Access clarity | 29.8 |
 
-**Agent readiness 38.4** — agent-ready
+**Agent readiness 33.5** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -170,8 +176,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 19.5** — Health
+**Regulatory alignment 14.8** — Health
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/acuiq-com/](https://apis.io/providers/acuiq-com/).
 
